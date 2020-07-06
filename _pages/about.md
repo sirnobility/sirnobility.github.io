@@ -5,7 +5,7 @@ permalink: /
 description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
-  align: right
+  align: top
   image: prof_pic.jpg
   address: >
     <p>555 your office number</p>
@@ -15,6 +15,8 @@ profile:
 news: true
 social: true
 ---
+
+Now this, is a test. 
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
