@@ -6,17 +6,20 @@ description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: top
-  image: prof_pic.jpg
+  image:
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Salem, OR</p>
 
 news: true
 social: true
 ---
 
-Now this, is a test. 
+Hello, my name is Peter.
+
+I'm a student that's interested in probably too many things for my own good. I launched this website in an attempt to keep my thoughts
+organized, and as a fun little summer side project to learn web development better, and get accustomed to coding in general.
+
+So far so good. 
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
