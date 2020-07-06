@@ -57,11 +57,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 
 blog_name: Think. # your blog must have a name for it to show up in the nav bar
-blog_description: What I have found is; research is key to understanding. Explaining complex ideas to others is a good
-indication that you understand the concept yourself. Thus, whatever I may write about here, it is an attempt to understand the idea
-better. This page is a way to keep what I've written organized and on occasion share a link to a friend or two.
-
-I may get a few things wrong here and there, but that's part of the process. I'll be updating as I go along. Practice makes perfect. 
+blog_description: Test.
 permalink: /blog/:year/:title/
 
 # Pagination
