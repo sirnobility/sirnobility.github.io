@@ -2,19 +2,18 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Colossians 3:23 - Salem, OR
 
 profile:
-  align: top
-  image:
-  address: >
-    <p>Salem, OR</p>
+  align: center
+  image: earth_mars.jpg
+  address: Earth from Mars. 
 
-news: true
-social: true
+news: false
+social: false
 ---
 
-Hello, my name is Peter.
+Hello there, my name is Peter.
 
 I'm a student that's interested in probably too many things for my own good. I launched this website in an attempt to keep my thoughts
 organized, and as a fun little summer side project to learn web development better, and get accustomed to coding in general.
