@@ -6,9 +6,8 @@ description:
 
 profile:
   align: center
-  image:
-  address: - Colossians 3:23
-           - Salem, OR
+  image: sunset_pic.jpg
+  address: Colossians 3:23 - Salem, OR
 
 news: false
 social: false
