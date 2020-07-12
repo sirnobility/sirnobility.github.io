@@ -14,8 +14,6 @@ news: false
 social: false
 ---
 
-![profile pic](assets\img\sunset_pic.jpg)
-
 Hello there. 
 
 I'm a college student that's interested in probably too many things for my own good; especially Physics/Engineering & Theology.
