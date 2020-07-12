@@ -12,7 +12,9 @@ profile:
 news: false
 social: false
 ---
-Colossians 3:23 - Salem, OR
+###### Colossians 3:23 - Salem, OR
+
+
 
 
 Hello there. 
