@@ -7,7 +7,7 @@ description:
 profile:
   align: center
   image: moon.png
-  address: Picture I took with my smartphone & telescope. 
+  address: 
 
 news: false
 social: false
