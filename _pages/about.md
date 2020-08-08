@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: https://sirnobility.github.io/about
+permalink: /about/
 description:
 
 profile:
