@@ -57,7 +57,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 blog_name: Think. # your blog must have a name for it to show up in the nav bar
 blog_description: There is a moment.
-permalink: /blog/:title/
+permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
