@@ -1,62 +1,24 @@
 ---
 layout: default
 ---
-
 <div class="post">
 
-  <header class="post-header">
-    {% assign name = site.title | split: ' ' %}
-    <h1 class="post-title"><span class="font-weight-bold">{{ name | first }}</span> {{ name | last }}</h1>
-    <p class="post-description">{{ page.description }}</p>
-  </header>
+  <div class="header-bar">
+    <h1>{{ site.blog_name }}</h1>
+    <h2>{{ site.blog_description }}</h2>
+  </div>
 
-  <article>
-    <div class="row">
-      <div class="col">
-        {{ content }}
-      </div>
-        {% if page.profile %}
-        <div class="profile col-4 {% if page.profile.align == 'left' %}order-first{% endif %}">
-          {% if page.profile.image %}
-            <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
-          {% endif %}
-          {% if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-          {% endif %}
-        </div>
-        {% endif %}
-    </div>
 
-    {% if page.news %}
-      {% include news.html %}
-    {% endif %}
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h3><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
+        <p>{{ post.description }}</p>
+      </li>
+    {% endfor %}
+  </ul>
 
-    {% if page.social %}
-    <div class="social">
-      {% include social.html %}
-      <div class="contact-note">{{ site.contact_note }}</div>
-    </div>
-    {% endif %}
-  </article>
-
-  <div class="post">
-
-    <div class="header-bar">
-      <h1>{{ site.blog_name }}</h1>
-      <h2>{{ site.blog_description }}</h2>
-    </div>
-  
-  
-    <ul class="post-list">
-      {% for post in paginator.posts %}
-        <li>
-          <h3><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-          <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
-          <p>{{ post.description }}</p>
-        </li>
-      {% endfor %}
-    </ul>
+  {% include pagination.html %}
 
 </div>
